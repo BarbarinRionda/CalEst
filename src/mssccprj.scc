@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[CalEst.dsp]
+SCC_Aux_Path = "\\Servidor\vss\"
+SCC_Project_Name = "$/CalEst/CalEst 1.0", CAAAAAAA
