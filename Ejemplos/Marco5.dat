@@ -1,0 +1,24 @@
+PreMECA 1.0
+Ejemplo_de_Marco_5
+Cm	Newtons
+4	3	3	3	3	3	1	1	1	2	0	0	0
+1	2	1	3
+1	2	3	3
+1	4	2	1
+0	0	
+250	250	
+500	500	
+500	0	
+1	1	1	1	0	0	0	
+3	1	1	1	0	0	0	
+4	1	1	1	0	0	0	
+2100000	126.79	19708.1	0	
+Fuerzas_concentradas_en_barras
+0	1	0	0	0	0
+1	50	100
+Fuerzas_uniformemente_distribuidas
+0	0	2	0	0	0
+1   50
+2   -50
+Peso_propio
+0	0	0	0	0	1

@@ -1,0 +1,173 @@
+						SICBASA Motor de Cálculo v. 1.0
+
+Este reporte del CALEST 1.0 es para uso interno de SICBASA cualquier interpretación
+incorrecta del mismo es responsabilidad del usuario.
+
+Título del problema; 
+
+UNIDADES:
+Longitud: 
+Fuerza:   
+
+CARACTERÍSTICA GENERALES DEL PROBLEMA:
+No. de nodos:      4
+No. de barras:     4
+No. de apoyos:     2
+No. de C de Carga: 1
+No. de GDL max:    3
+No. de mats:       1
+No. de dims.:      2
+No. de ap. elás.:  0
+No. de ap. incl.:  0
+Ind. esc. de mat.: Encendido
+
+
+CARACTERÍSTICAS DE LOS NODOS:
+No.	X	Y
+1	100	1000	
+2	550	1000	
+3	100	550	
+4	550	550	
+CARACTERÍSTICAS DE LAS BARRAS:
+No.	No. mat.	Nodo ini.	Nodo fin.	Tipo
+1	1			3			1			1
+2	1			1			2			1
+3	1			2			4			1
+4	1			3			2			1
+
+CARACTERÍSTICAS DE LOS APOYOS RÍGIDOS:
+No.	Nodo	Dr. rest.	Desp.
+1	3	1	1	0	0	0	-1e-308	
+2	4	1	1	0	0	0	-1e-308	
+
+CARACTERÍSTICAS DE LOS MATERIALES:
+No.	E	A	I	Peso esp
+1	1	1	1	1	
+
+CARACTERÍSTICAS DE LOS APOYOS ELÁSTICOS:
+No.	Nodo	X	Y	Giro
+
+CARACTERÍSTICAS DE LOS APOYOS INCLINADOS:
+No.	Nodo	Ángulo
+
+CASO DE CARGA: 1
+Título del caso: 	2	1	1	2	1	1	1	2	0	0	0
+1	2	1
+1	1	3
+1	3	4
+1	2	3
+100	1000	
+100	550	
+550	1000	
+550	550	
+2	1	1	0	0	
+4	1	1	0	0	
+1	1	1	1	
+Caso_sin_título
+0	1	0	0	0	0
+1	50	100
+	0	0	0
+1	50	100
+
+
+CARACTERÍSTICAS GENERALES DEL CASO DE CARGA:
+No. de cargas punt. en nodos:   0
+No. de cargas punt. en barras:  1
+No. de cargas unif. repartidas: 0
+Peso propio:                    0
+
+FUERZAS EN PUNTUALES EN NODOS:
+No.	Nodo	X	Y	M
+
+FUERZAS EN PUNTUALES EN BARRAS:
+No.	Barra	Carga	Distancia
+1	1		50		100
+
+FUERZAS EN RECTANGULARES EN BARRAS:
+No.	Barra	Carga
+
+
+******************** RESULTADOS DEL CÁLCULO ********************
+
+MATRICES ELEMENTALES DE RIGIDEZ:
+
+Matriz de barra: 1
+8.33883e-36	1.36128e-19	-8.33883e-36	-1.36128e-19	
+1.36128e-19	0.00222222	-1.36128e-19	-0.00222222	
+-8.33883e-36	-1.36128e-19	8.33883e-36	1.36128e-19	
+-1.36128e-19	-0.00222222	1.36128e-19	0.00222222	
+
+Vector de FEP:
+38.8889	-2.38223e-15	0	11.1111	
+
+Matriz de barra: 2
+0.00222222	0	-0.00222222	0	
+0	0	0	0	
+-0.00222222	0	0.00222222	0	
+0	0	0	0	
+
+Vector de FEP:
+0	0	0	0	
+
+Matriz de barra: 3
+8.33883e-36	-1.36128e-19	-8.33883e-36	1.36128e-19	
+-1.36128e-19	0.00222222	1.36128e-19	-0.00222222	
+-8.33883e-36	1.36128e-19	8.33883e-36	-1.36128e-19	
+1.36128e-19	-0.00222222	-1.36128e-19	0.00222222	
+
+Vector de FEP:
+0	0	0	0	
+
+Matriz de barra: 4
+0.000785674	0.000785674	-0.000785674	-0.000785674	
+0.000785674	0.000785674	-0.000785674	-0.000785674	
+-0.000785674	-0.000785674	0.000785674	0.000785674	
+-0.000785674	-0.000785674	0.000785674	0.000785674	
+
+Vector de FEP:
+0	0	0	0	
+
+
+MATRIZ DE RIGIDEZ GLOBAL DISMINUIDA:
+0.00222222	1.36128e-19	-0.00222222	0	
+1.36128e-19	0.00222222	0	0	
+-0.00222222	0	0.0030079	0.000785674	
+0	0	0.000785674	0.0030079	
+
+
+RESULTADOS PARA EL CASO DE CARGA: 1
+
+Vector de cargas ensamblado por cada caso:
+-11.1111	6.80638e-16	0	0	
+
+Vector de desplazamientos resultantes:
+-24142.1	1.78517e-12	-19142.1	5000	
+
+Desplazamientos nodales por caso:
+Nodo 1:	-24142.1	1.78517e-12	0	
+Nodo 2:	-19142.1	5000	0	
+Nodo 3:	0	0	0	
+Nodo 4:	0	0	0	
+
+
+Fuerzas en nodos de barras, por caso:
+Barra 1:	38.8889	-3.06287e-15	11.1111	0	
+Barra 2:	-11.1111	0	11.1111	0	
+Barra 3:	-6.80638e-16	11.1111	6.80638e-16	-11.1111	
+Barra 4:	11.1111	11.1111	-11.1111	-11.1111	
+
+
+Reacciones, por caso:
+Apoyo 1:	50	11.1111	
+Apoyo 2:	6.80638e-16	-11.1111	
+
+
+Esfuerzos, por caso:
+Mínimo: -15.7135
+Máximo: 11.1111
+
+Barra 1:	6.80638e-16
+Barra 2:	11.1111
+Barra 3:	11.1111
+Barra 4:	-15.7135
+

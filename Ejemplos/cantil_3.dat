@@ -1,0 +1,15 @@
+PreMECA 1.0
+Cantiliver_No._3
+m	kg
+2	1	1	2	3	3	1	1	1	2	0	0	0
+1	1	2	3
+0	0	
+10	0	
+1	1	1	1	0	0	0	
+2100000	1	100	1	
+Carga_en_Barra
+0	1	0	0	0	0
+1	-10	0
+Carga_en_Nodo
+1	0	0	0	0	0
+1	0	-10	0	
